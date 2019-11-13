@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VICTOR\\WORK\\Interview\\Veeam\\ProcessKiller\\ProcessKiller\\ProcessKiller.csproj",
+      "projectUniqueName": "D:\\VICTOR\\WORK\\Interview\\Veeam\\ProcessKiller\\ProcessKiller.csproj",
       "projectName": "ProcessKiller",
-      "projectPath": "D:\\VICTOR\\WORK\\Interview\\Veeam\\ProcessKiller\\ProcessKiller\\ProcessKiller.csproj",
+      "projectPath": "D:\\VICTOR\\WORK\\Interview\\Veeam\\ProcessKiller\\ProcessKiller.csproj",
       "packagesPath": "C:\\Users\\vekto\\.nuget\\packages\\",
-      "outputPath": "D:\\VICTOR\\WORK\\Interview\\Veeam\\ProcessKiller\\ProcessKiller\\obj\\",
+      "outputPath": "D:\\VICTOR\\WORK\\Interview\\Veeam\\ProcessKiller\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
