@@ -1,0 +1,11 @@
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\bin\Debug\netcoreapp3.0\ProcessKiller.exe
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\bin\Debug\netcoreapp3.0\ProcessKiller.deps.json
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\bin\Debug\netcoreapp3.0\ProcessKiller.runtimeconfig.json
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\bin\Debug\netcoreapp3.0\ProcessKiller.runtimeconfig.dev.json
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\bin\Debug\netcoreapp3.0\ProcessKiller.dll
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\bin\Debug\netcoreapp3.0\ProcessKiller.pdb
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.csprojAssemblyReference.cache
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.AssemblyInfoInputs.cache
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.AssemblyInfo.cs
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.dll
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.pdb
