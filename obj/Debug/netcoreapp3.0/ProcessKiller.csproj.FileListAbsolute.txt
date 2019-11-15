@@ -19,3 +19,4 @@ D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKill
 D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.AssemblyInfo.cs
 D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.dll
 D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.pdb
+D:\VICTOR\WORK\Interview\Veeam\ProcessKiller\obj\Debug\netcoreapp3.0\ProcessKiller.csprojAssemblyReference.cache

@@ -7,8 +7,8 @@ namespace PK
     class InputParams
     {
         public readonly string _processName = "notepad";
-        public readonly float _allowableTimeMins = 0.02F;
-        public readonly float _checkFreqMins = 0.01F;
+        public readonly float _allowableTimeMins = 0.5F;
+        public readonly float _checkFreqMins = 0.02F;
 
         public InputParams(string[] programArgs)
         {
@@ -36,7 +36,7 @@ namespace PK
 
             Console.WriteLine("Параметр \"Название процесса\" равен {0}", _processName);
             Console.WriteLine("Параметр \"Допустимое время(мин)\" равен {0}", _allowableTimeMins);
-            Console.WriteLine("Параметр \"Частота проверки(мин)\" равен {0}", _checkFreqMins);
+            Console.WriteLine("Параметр \"Частота проверки(мин)\" равен {0} \n", _checkFreqMins);
         }
     }
 
@@ -45,26 +45,25 @@ namespace PK
         static void Main(string[] args)
         {
             InputParams Params = new InputParams(args);//Входные аргументы
-            float ProcRunTime = 0;
 
+            float ProcRunTime = 0;
+            
+            
             do
             {
                 Process[] listprosecc = Process.GetProcesses();
-                foreach (Process oneproc in listprosecc)
+                foreach (Process CurrentProc in listprosecc)
                 {
-                    string ProsessName = oneproc.ProcessName;
+                    string ProsessName = CurrentProc.ProcessName;
 
                     if (ProsessName.Equals(Params._processName))
                     {
+                        ProcRunTime = (float)(DateTime.Now - CurrentProc.StartTime).TotalMinutes;
                         if (ProcRunTime > Params._allowableTimeMins)
                         {
-                            oneproc.Kill();
-                            Console.WriteLine("Процесс с именем {0} убит", Params._processName);
+                            CurrentProc.Kill();
+                            Console.WriteLine("Процесс с именем {0} убит, время работы {1} минут", Params._processName, ProcRunTime);
                             ProcRunTime = 0;
-                        }
-                        else
-                        {
-                            ProcRunTime += Params._checkFreqMins;
                         }
                     }
                 }
@@ -73,6 +72,11 @@ namespace PK
             }
             while (true);
 
+
+            //if ((DateTime.Now - process.StartTime).TotalTotalMinutes > Params._allowableTimeMins)
+            //process.Kill();
+
         }
+
     }
 }
